@@ -160,4 +160,4 @@ python infer.py
 > 详见：[./rk3588_guide/README.md](./rk3588_guide/README.md)
 >
 
-usb线连通板子`UART口`和windows电脑`usb口`，板子接通电源。在windows中打开`RKDevTool.exe`（瑞芯微工具），选择从正点原子官网下载好的buildroot_r8镜像（r8表示rk3588，r6表rk3568，这不是正式命名，不用管），右键加载配置，点击执行，就搞定了。
+usb线连通板子`UART口`和windows电脑`usb口`，板子接通电源。在windows中打开`RKDevTool.exe`（瑞芯微工具），选择从正点原子官网下载好的buildroot_r8镜像（r8表示rk3588，r6表rk3568，这不是正式命名），右键加载配置，点击执行，就搞定了。
