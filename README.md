@@ -153,3 +153,9 @@ python infer.py
 
 ​											图-推理完成
 
+---
+
+# RK3588 系统烧录指南
+
+详见：[rk3588_guide/README.md](./rk3588_guide/README.md)
+
