@@ -1,5 +1,9 @@
 # rk3588部署yolo11m
 
+![result](./assets/result.jpg)
+
+​										图-推理结果
+
 ## 将yolo11从pt转换成onnx
 
 ### 引用
@@ -148,3 +152,4 @@ python infer.py
 ![推理完成](./assets/infer.png)
 
 ​											图-推理完成
+
