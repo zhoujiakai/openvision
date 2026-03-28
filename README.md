@@ -38,7 +38,7 @@ export PYTHONPATH=./
 python ./ultralytics/engine/exporter.py
 ```
 
-![转换完成](../../../../同步空间/Dao/assets/截屏2026-03-28 下午5.57.13.png)
+![转换完成](./assets/截屏2026-03-28 下午5.57.13.png)
 
 ​											图-pt转换成onnx完成
 
@@ -91,6 +91,6 @@ python -m pip install "opencv-python-headless>=4.5.5.64,<4.12"
 python convert.py ./yolo11m.onnx rk3588
 ```
 
-![转换完成](../../../../同步空间/Dao/assets/截屏2026-03-28 下午7.41.46.png)
+![转换完成](./assets/截屏2026-03-28 下午7.41.46.png)
 
 ​											图-onnx->rknn转换完成
