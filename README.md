@@ -108,6 +108,41 @@ python convert.py ./yolo11m.onnx rk3588
 
 openvision/yolo11_rk3588_infer/
 
+### 命令
+
+下载本仓库，进入仓库文件夹，然后执行以下命令（在rk3588中运行）。
+
+先将rknn模型拷贝到openvision/yolo11_rk3588_infer/目录下。
+
+```shell
+# 进入文件夹
+cd yolo11_rk3588_infer
+
+# 安装conda
+# 下载 Miniforge ARM64（电脑下载再传到板子）                                                    
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh
+# 安装
+bash Miniforge3-Linux-aarch64.sh -b -p $HOME/miniforge
+# 初始化
+source ~/miniforge/etc/profile.d/conda.sh
+conda init bash
+source /root/.bashrc
+
+# 安装依赖
+conda create -n yolo11_infer python=3.10
+conda activate yolo11_infer
+# 下载 whl（电脑下载再传到板子）
+# https://github.com/airockchip/rknn-toolkit2/blob/master/rknn-toolkit-lite2/packages/rknn_toolkit_lite2-2.3.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+pip install rknn_toolkit_lite2-2.3.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn
+
+pip install "numpy>=1.21.0,<2.0.0" -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn
+
+pip install "opencv-python-headless>=4.5.5.64,<4.12" -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn
+
+# 执行推理
+python infer.py
+```
+
 
 
 ![推理完成](./assets/infer.png)
