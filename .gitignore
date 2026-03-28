@@ -71,20 +71,6 @@ models/
 pretrained/
 *.data
 
-# Data
-data/
-datasets/
-*.jpg
-*.jpeg
-*.png
-*.bmp
-*.webp
-*.mp4
-*.avi
-*.mov
-images/
-videos/
-
 # Logs
 *.log
 logs/
