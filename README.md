@@ -94,3 +94,22 @@ python convert.py ./yolo11m.onnx rk3588
 ![转换完成](./assets/onnx2rknn.png)
 
 ​											图-onnx->rknn转换完成
+
+## 将yolo11在rk3588板子推理
+
+### 引用
+
+**参考这个教程和仓库**
+
+- 链接：https://github.com/yuking926/RKNN-YOLO11
+- 类型：github
+
+### 位置
+
+openvision/yolo11_rk3588_infer/
+
+
+
+![推理完成](./assets/infer.png)
+
+​											图-推理完成
