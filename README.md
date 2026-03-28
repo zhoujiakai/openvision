@@ -157,5 +157,5 @@ python infer.py
 
 # RK3588 系统烧录
 
-详见：[rk3588_guide/README.md](./rk3588_guide/README.md)
+详见：[./rk3588_guide/README.md](./rk3588_guide/README.md)
 
