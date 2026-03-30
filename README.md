@@ -1,3 +1,9 @@
+**感谢YOLO11部署代码及部署教程的仓库作者：https://github.com/yuking926/RKNN-YOLO11**
+
+**（我仓库中YOLO部署和推理的Python脚本是从这个作者的仓库拷贝过来的，特此声明）**
+
+
+
 # rk3588部署yolo11m
 
 ![result](./assets/result.jpg)
