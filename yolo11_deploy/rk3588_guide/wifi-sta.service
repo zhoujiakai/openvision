@@ -1,0 +1,16 @@
+[Unit]
+Description=WiFi station (wpa_supplicant + DHCP)
+After=network-pre.target
+Wants=network-pre.target
+# 若网卡晚于内核枚举，可改为 After=sys-subsystem-net-devices-wlan0.device
+ConditionPathExists=/etc/wpa_supplicant.conf
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+Environment=WLAN_IF=wlan0
+ExecStart=/usr/local/bin/wifi-sta-up.sh
+ExecStop=/usr/local/bin/wifi-sta-down.sh
+
+[Install]
+WantedBy=multi-user.target
