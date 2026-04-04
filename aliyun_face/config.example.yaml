@@ -1,0 +1,6 @@
+face:
+    ACCESS_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    SECRET_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    DATABASE_NAME: face_20260403
+    ENDPOINT: facebody.cn-shanghai.aliyuncs.com
+    LOG: 1

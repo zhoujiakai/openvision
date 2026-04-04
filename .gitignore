@@ -91,3 +91,4 @@ htmlcov/
 .env
 *.bak
 *.tmp
+/aliyun_face/config.yaml
