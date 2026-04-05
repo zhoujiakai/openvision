@@ -8,7 +8,7 @@
 
 ![result](./assets/result.jpg)
 
-​										图-推理结果
+​										图-瑞芯微rk3588上yolo11m推理结果
 
 ## 将yolo11从pt转换成onnx
 
