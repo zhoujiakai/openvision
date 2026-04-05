@@ -1,6 +1,6 @@
 # YOLO11转换部署到瑞芯微
 
-**位置：**`cd openvision/deploy`
+**位置：**`cd openvision/yolo11_deploy`
 
 **介绍：**
 
