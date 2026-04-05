@@ -56,6 +56,10 @@ usb线连通板子`UART口`和windows电脑`usb口`，板子接通电源。在wi
 
 用Mobaxterm进入板子查看Buildroot版本：`cat /etc/os-release`，可以看到板子上装的是`Buildroot 2021.11`版本的系统。**rk3588是2022年发布的**，操作系统用这个Buildroot 2021.11版本应该是合适的。
 
+Python每年10月发布一个大版本，Python3.10是2021年发布的，最新的版本是2025年发布的Python3.14。
+
+Buildroot 2021.11上预装的是Python3.10，Buildroot 2021.11 上运行python3.10应该是合适的。
+
 
 
 
