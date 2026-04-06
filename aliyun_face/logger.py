@@ -1,4 +1,4 @@
-# site: https://github.com/biteagle-labs/back-template/blob/master/data/logger.py
+# source: https://github.com/biteagle-labs/back-template/blob/master/data/logger.py
 
 import logging
 from colorama import init, Fore, Style
