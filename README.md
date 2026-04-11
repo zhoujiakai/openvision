@@ -24,7 +24,7 @@
 **详见：**[README_aliyun_face](./aliyun_face/README_aliyun_face.md)
 
 
-# 力扣刷题记录
+# 力扣热题100
 
 **位置：**`cd openvision/leetcode`
 
