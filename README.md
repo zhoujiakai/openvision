@@ -34,5 +34,5 @@
 
 - 记录简单思路和通关代码。
 
-**详见：**[README_aliyun_face](./aliyun_face/README_leetcode.md)
+**详见：**[README_leetcode](./leetcode/README_leetcode.md)
 
