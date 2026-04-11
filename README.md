@@ -24,15 +24,15 @@
 **详见：**[README_aliyun_face](./aliyun_face/README_aliyun_face.md)
 
 
-# 力扣热题100
+# 力扣题目
 
 **位置：**`cd openvision/leetcode`
 
 **介绍：**
 
-- 力扣热题100的题目。
+- 力扣热题100和剑指offer50题。
 
-- 记录简单思路和通关代码。
+- 包含简单思路和通关代码。
 
 **详见：**[README_leetcode](./leetcode/README_leetcode.md)
 
