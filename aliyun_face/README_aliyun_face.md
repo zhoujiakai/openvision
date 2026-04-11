@@ -17,8 +17,8 @@
 ```python
 access_key_id = 'LTAxxxxxxxxxxxxxxxxxx'
 access_key_secret = 'xxxxxxxxxxxxxxxxxxxxxxx'
-endpoint='facebody.cn-shanghai.aliyuncs.com'
-region_id='cn-shanghai'
+endpoint = 'facebody.cn-shanghai.aliyuncs.com'
+region_id = 'cn-shanghai'
 ```
 
 
@@ -27,8 +27,8 @@ region_id='cn-shanghai'
 参数：
 
 ```python
-db_name=db_name # 数据库名称
-entity_id=person_name # 人员名称（只能包含字母、下划线、数字）
+db_name = db_name # 数据库名称
+entity_id = person_name # 人员名称（只能包含字母、下划线、数字）
 ```
 
 
