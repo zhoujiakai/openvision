@@ -36,3 +36,21 @@
 
 **详见：**[README_leetcode](./leetcode/README_leetcode.md)
 
+# RTSP多视频流接流
+
+**位置：**
+
+```shell
+cd openvision/multi_rtsp
+```
+
+**介绍：**
+
+- 异步读取视频帧
+
+- 使用Python、OpenCV实现读取多个rtsp视频流
+- 内存缓存视频流序列
+
+**详见：**
+
+[README_multi_rtsp](./multi_rtsp/README_multi_rtsp.md)

@@ -1,0 +1,11 @@
+# Async RTSP Stream Processor Requirements
+
+# Core dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Optional: for colored terminal output (will use fallback if not installed)
+colorama>=0.4.6
+
+# Python 3.10+ required for built-in asyncio support
+# Python >=3.10
