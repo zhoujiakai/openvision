@@ -7,7 +7,7 @@
 - 转换：将YOLO11从pt格式转换成rknn格式，同时进行int8量化
 - 推理：使用python在瑞芯微的板子进行YOLO11的推理。
 
-**详见：**[yolo11_deploy](./yolo11_deploy/README.md)
+**详见：**[yolo11_deploy](./yolo11_deploy/)
 
 
 
@@ -21,4 +21,4 @@
 
 - 使用装饰器方法，支持错误重连并简化代码。
 
-**详见：**[aliyun_face](./aliyun_face/README.md)
+**详见：**[aliyun_face](./aliyun_face/)
